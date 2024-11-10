@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="wrapper">
+            <h2>Submit your details to register</h2>
+            <form action="" class="formreg" method="">
+                <label for="first-name">First Name</label></br>
+                <input type="text" id="first-name" placeholder="Your First Name" required="required"><br><br>
+
+                <label for="last-name">Last Name</label></br>
+                <input type="text" id="last-name" placeholder="Your Last Name" required="required"><br><br>
+
+                <label for="email">Enter Your Email Address</label></br>
+                <input type="email" id="email" placeholder="Enter Your Email Address" required="required"><br><br>
+
+                <label for="password">Enter Your Password</label></br>
+                <input type="password" id="password" placeholder="" required="required"><br><br>
+
+                <label for="date-of-birth">Enter Your Date of Birth</label></br>
+                <input type="date" id="date-of-birth" required="required"><br><br>
+
+                <label for="age">Enter Your Age</label></br>
+                <input type="number" id="age" placeholder="Enter Your Age"><br><br>
+
+                <label for="Sex">Your Sex</label><br>
+                <label for="male" class="sex"><input type="radio" id="male" name="gender">Male</label>
+                <label for="female" class="sex"><input type="radio" id="female" name="gender">Female</label>
+                <label for="others" class="sex"><input type="radio" id="others" name="gender">Others</label><br><br>
+
+                <label for="hobby">Select Your Pastime(s)</label><br>
+                <label for="reading-books" class="hobby"><input type="checkbox" id="reading-books" name="hobby">Reading Books</label>
+                <label for="listening-music" class="hobby"><input type="checkbox" id="listening-music" name="hobby">Listening Music</label>
+                <label for="travelling" class="hobby"><input type="checkbox" id="travelling" name="hobby">Travelling</label>
+                <label for="stamp-collecting" class="hobby"><input type="checkbox" id="stamp-collecting" name="hobby">Stamp Collecting</label><br><br>
+
+                <label for="generation">Select Your Generation</label><br>
+                <select name="generation" id="generation">
+                    <option value="" >~Select Generation~</option>
+                    <option value="silent-gen" >Silent Generation</option>
+                    <option value="baby-boom">Baby Boom Generation</option>
+                    <option value="gen-x">Generation X</option>
+                    <option value="gen-mil">Millennial Generation</option>
+                    <option value="gen-z">Generation Z</option>
+                    <option value="gen-a">Generation Alpha</option>
+                </select><br><br>
+
+                <label for="comment">Write Us Your Thought</label><br>
+                <textarea name="comment" id="comment" placeholder="Enter Your Message Here" rows="5"></textarea><br><br>
+
+                <button type="submit" value="submit">Stay With Us</button>
+                
+            </form>
+        </div>
+    </section>
+</body>
+</html>

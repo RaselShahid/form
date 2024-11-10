@@ -1,0 +1,76 @@
+*{
+    margin: 0 auto;
+}
+body{
+    margin: 100px;
+    text-align: center;
+}
+.wrapper{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #0e4177;
+    width: 800px;
+}
+.wrapper h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: aliceblue;
+}
+.formreg{
+    padding: 20px;
+    text-align: left;
+    background-color: #f3eff0;
+}
+.formreg label{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.formreg input{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+.sex, .hobby{
+    color: rgb(11, 4, 107);
+    position: relative;
+    padding-left: 20px !important;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.hobby input[type], .sex input[type]{
+    margin: 10px;
+}
+select{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+button{
+    background-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid snow;
+}
+button:hover{
+    background-color: rgb(226, 85, 2);
+    color: whitesmoke;
+}
+#first-name, #last-name, #email, #password{
+    width: 90%;
+}
